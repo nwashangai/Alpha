@@ -103,6 +103,13 @@ export default StyleSheet.create({
   fullWidth: {
     width: '100%',
   },
+  logo: {
+    paddingTop: 60,
+    textAlign: 'center',
+    fontSize: 70,
+    fontWeight: "bold",
+    color: Colors.white
+  },
   mainCenter: {
     justifyContent: 'center',
   },
@@ -156,6 +163,15 @@ export default StyleSheet.create({
   },
   selfStretch: {
     alignSelf: 'stretch',
+  },
+  startedHead: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: Colors.white
+  },
+  startedText: {
+    color: '#ffff',
+    paddingTop: 15,
   },
   textCenter: {
     textAlign: 'center',
